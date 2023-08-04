@@ -1,0 +1,43 @@
+.bg{
+    background-image: url("https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg");
+    background-size:cover;
+    height:100vh;
+}
+.heading{
+    color:white;
+    font-family:"Serif";
+}
+.matter{
+    color:white;
+}
+.slide-in {
+    color:white;
+    font-family:"Serif";
+    transform: translateX(-100%);
+    animation: slideIn 2s forwards;
+  }
+  
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .slide-in-from-right {
+    color:white;
+    font-family:"Serif";
+    animation: slideInFromRight 2s ease-in-out;
+  }
+  
+      
+  
+  
